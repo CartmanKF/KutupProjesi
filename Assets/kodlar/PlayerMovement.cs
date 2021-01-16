@@ -35,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
             int CS = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(CS + 1);
         }
+
     }
     // Start is called before the first frame update
     void Start()
@@ -106,14 +107,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void Durdur()
-    {
-        anim.SetFloat("velocity", 0);
-        this.enabled = false;
-        rigidbody2d.velocity = Vector2.zero;
-
-
-    }
+    
 
 
 

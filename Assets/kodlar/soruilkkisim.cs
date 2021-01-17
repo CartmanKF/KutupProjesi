@@ -22,7 +22,7 @@ public class soruilkkisim : MonoBehaviour
 
     public void Soru1A()
     {
-        SceneManager.LoadScene("soru 2");
+        SceneManager.LoadScene("acıklama 1");
     }
     public void Soru1B()
     {
@@ -50,7 +50,7 @@ public class soruilkkisim : MonoBehaviour
     }
     public void Soru2D()
     {
-        SceneManager.LoadScene("soru 3");
+        SceneManager.LoadScene("acıklama 2");
     }
 
     public void Soru3A()
@@ -63,7 +63,7 @@ public class soruilkkisim : MonoBehaviour
     }
     public void Soru3C()
     {
-        SceneManager.LoadScene("soru 4");
+        SceneManager.LoadScene("acıklama 3");
     }
     public void Soru3D()
     {
@@ -83,12 +83,12 @@ public class soruilkkisim : MonoBehaviour
     }
     public void Soru4D()
     {
-        SceneManager.LoadScene("soru 5");
+        SceneManager.LoadScene("acıklama 4");
     }
 
     public void Soru5A()
     {
-        SceneManager.LoadScene("soru 6");
+        SceneManager.LoadScene("acıklama 5");
     }
     public void Soru5B()
     {
@@ -104,7 +104,7 @@ public class soruilkkisim : MonoBehaviour
     }
     public void Soru6A()
     {
-        SceneManager.LoadScene("soru 7");
+        SceneManager.LoadScene("acıklama 6");
     }
     public void Soru6B()
     {
@@ -125,7 +125,7 @@ public class soruilkkisim : MonoBehaviour
     }
     public void Soru7B()
     {
-        SceneManager.LoadScene("soru 8");
+        SceneManager.LoadScene("acıklama 7");
     }
     public void Soru7C()
     {
@@ -135,59 +135,51 @@ public class soruilkkisim : MonoBehaviour
     {
         SceneManager.LoadScene("yanlisekrani");
     }
-    public void Soru8A()
+
+    public void sorugec()
     {
-        SceneManager.LoadScene("soru 9");
-    }
-    public void Soru8B()
-    {
-        SceneManager.LoadScene("yanlisekrani");
-    }
-    public void Soru8C()
-    {
-        SceneManager.LoadScene("yanlisekrani");
-    }
-    public void Soru8D()
-    {
-        SceneManager.LoadScene("yanlisekrani");
+        SceneManager.LoadScene("soru 2");
     }
 
-    public void Soru9A()
+    public void sorugec2()
     {
-        SceneManager.LoadScene("yanlisekrani");
+        SceneManager.LoadScene("soru 3");
     }
-    public void Soru9B()
+
+    public void sorugec3()
     {
-        SceneManager.LoadScene("yanlisekrani");
+        SceneManager.LoadScene("soru 4");
     }
-    public void Soru9C()
+
+    public void sorugec4()
     {
-        SceneManager.LoadScene("yanlisekrani");
+        SceneManager.LoadScene("soru 5");
     }
-    public void Soru9D()
+
+    public void sorugec5()
     {
-        SceneManager.LoadScene("soru 10");
+        SceneManager.LoadScene("soru 6");
     }
-    public void Soru10A()
+
+    public void sorugec6()
     {
-        SceneManager.LoadScene("yanlisekrani");
+        SceneManager.LoadScene("soru 7");
     }
-    public void Soru10B()
+
+    public void sorugec7()
     {
         SceneManager.LoadScene("tebrikler1");
     }
-    public void Tebrikler2()
+
+    public void sonekran()
     {
         SceneManager.LoadScene("tebrikler2");
     }
-    public void Soru10C()
-    {
-        SceneManager.LoadScene("yanlisekrani");
-    }
-    public void Soru10D()
-    {
-        SceneManager.LoadScene("yanlisekrani");
-    }
+
+
+
+
+
 
 
 

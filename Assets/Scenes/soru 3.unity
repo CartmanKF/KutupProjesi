@@ -190,8 +190,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "HANG\u0130S\u0130 K\xDCRESEL ISINMANIN NEDENLER\u0130NDEN B\u0130R\u0130
-    DE\u011E\u0130LD\u0130R?"
+  m_Text: "A\u015EA\u011EIDAK\u0130LERDEN HANG\u0130S\u0130 K\xDCRESEL ISINMAYA NEDEN
+    OLMAZ?"
 --- !u!222 &22862568
 CanvasRenderer:
   m_ObjectHideFlags: 0

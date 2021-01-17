@@ -317,7 +317,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "KAPLUMBA\u011EA"
+  m_Text: "f\u0131lm \u0131zleyeb\u0131l\u0131r\u0131z"
 --- !u!222 &372532524
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -395,7 +395,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "K\xDCRESEL ISINMA HANG\u0130 HAYVANI K\xD6T\xDC ETK\u0130LER?"
+  m_Text: " k\xFCresel isinmayi engellemek \u0131\xE7\u0131n neler yapab\u0131l\u0131r\u0131z?"
 --- !u!222 &607359646
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -763,7 +763,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HOROZ
+  m_Text: "top oynayab\u0131l\u0131r\u0131z"
 --- !u!222 &813856296
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1070,7 +1070,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEOPAR
+  m_Text: "k\u0131tap okuyab\u0131l\u0131r\u0131z"
 --- !u!222 &1276629547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1148,7 +1148,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: KUTUP AYISI
+  m_Text: "a\u011Fa\xE7 d\u0131keb\u0131l\u0131r\u0131z"
 --- !u!222 &1299150811
 CanvasRenderer:
   m_ObjectHideFlags: 0

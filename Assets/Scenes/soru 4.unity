@@ -480,7 +480,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 29c369bbd8191f04eb70b8fcb9834e55, type: 3}
-    m_FontSize: 20
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -492,7 +492,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "A\u015EA\u011EIDAK\u0130LERDEN HANG\u0130S\u0130 K\xDCRESEL ISINMANIN
-    B\u0130R SONUCU DE\u011E\u0130LD\u0130R?"
+    B\u0130R SONUCUDUR?"
 --- !u!222 &219160825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -559,7 +559,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 29c369bbd8191f04eb70b8fcb9834e55, type: 3}
-    m_FontSize: 18
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -570,7 +570,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u015EEH\u0130RLER\u0130N SULAR ALTINDA KALMASI"
+  m_Text: "HAVANIN TEM\u0130ZLENMES\u0130"
 --- !u!222 &226611054
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1589,7 +1589,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 29c369bbd8191f04eb70b8fcb9834e55, type: 3}
-    m_FontSize: 18
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1600,7 +1600,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "HAYVANLARIN EVLER\u0130N\u0130 KAYBETMES\u0130"
+  m_Text: "A\u011EA\xC7LARIN B\xDCY\xDCMES\u0130"
 --- !u!222 &1659225617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1667,7 +1667,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 29c369bbd8191f04eb70b8fcb9834e55, type: 3}
-    m_FontSize: 18
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1678,7 +1678,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "BUZULLARIN ER\u0130MES\u0130"
+  m_Text: DEPREM OLMASI
 --- !u!222 &1807479573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1788,7 +1788,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 29c369bbd8191f04eb70b8fcb9834e55, type: 3}
-    m_FontSize: 18
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1799,7 +1799,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A\u011EA\xC7LARIN B\xDCY\xDCMES\u0130"
+  m_Text: "BUZULLARIN ER\u0130MES\u0130"
 --- !u!222 &2130138782
 CanvasRenderer:
   m_ObjectHideFlags: 0

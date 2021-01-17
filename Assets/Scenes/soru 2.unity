@@ -534,7 +534,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OKYANUSLAR
+  m_Text: okyanuslar
 --- !u!222 &654016367
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1481,7 +1481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ORMANLAR
+  m_Text: madenler
 --- !u!222 &1704442783
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1763,8 +1763,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.10867, y: 166.79999}
-  m_SizeDelta: {x: 702.726, y: 29.820164}
+  m_AnchoredPosition: {x: 0.10867, y: 163}
+  m_SizeDelta: {x: 702.726, y: 53.411457}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2043900727
 MonoBehaviour:
@@ -1787,7 +1787,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 29c369bbd8191f04eb70b8fcb9834e55, type: 3}
-    m_FontSize: 25
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1798,7 +1798,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "K\u0130RL\u0130L\u0130K HAVAYA YAYILDIK\xC7A NE AZALIR?"
+  m_Text: "a\u015Fa\u011Fidak\u0131lerden hang\u0131s\u0131 havaya salinan zararli
+    gazlar sonucunda zarar g\xF6r\xFCr?"
 --- !u!222 &2043900728
 CanvasRenderer:
   m_ObjectHideFlags: 0

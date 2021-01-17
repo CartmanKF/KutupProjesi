@@ -47,16 +47,16 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/ac\u0131klama 5.unity"
     guid: 8c2e41d51bc63864ca38feb07a0effd8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/soru 6.unity
     guid: bab47f77b02842d47b6feceb835747b0
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/ac\u0131klama 6.unity"
     guid: 67b665b25e9a6164ba41b7082c2063de
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/soru 7.unity
     guid: 3eb9f6f555950ea4d80b4dc62dc87d14
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/ac\u0131klama 7.unity"
     guid: 68a5b5a3749cd0249bb81d715c5fa9f8
   - enabled: 1

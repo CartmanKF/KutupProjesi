@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    float timer = 0;
     Rigidbody2D rigidbody2d;
 
     [Header("Movement Settings")]
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.tag == "KILLZONE")
         {
+            soundmanager.PlaySound("deathsound");
             int CS = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(CS);
         }
@@ -52,11 +54,13 @@ public class PlayerMovement : MonoBehaviour
         playerY = this.transform.position.y;
         if (isWalking)
         {
+            
             HorizontalInput = Input.GetAxisRaw("Horizontal");
             float horizontal = Input.GetAxis("Horizontal");
             float moveby = moveSpeed * horizontal;
             rigidbody2d.velocity = new Vector2(moveby, rigidbody2d.velocity.y);
             anim.SetFloat("velocity", rigidbody2d.velocity.magnitude);
+            
             // tsransform.position += Move * Time.deltaTime ;
         }
 
@@ -71,10 +75,18 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
 
+      
 
         if (jumpNumber >= 2)
         {
             isJumping = false;
+        }
+        timer += Time.deltaTime;
+        if (HorizontalInput!=0&&timer>0.55f)
+        {
+            timer = 0;
+            soundmanager.PlaySound("xd");
+
         }
 
     }
@@ -100,6 +112,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow) && isJumping)
         {
+            soundmanager.PlaySound("jump");
             rigidbody2d.AddForce(new Vector2(0f, jumpPower), ForceMode2D.Impulse);
 
             isGrounded = false;
@@ -107,7 +120,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    
 
 
 

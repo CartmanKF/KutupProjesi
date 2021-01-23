@@ -1078,7 +1078,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "EVET. K\xDCRESEL ISINMA NEDEN\u0130YLE SICAKLIKLARIN ARTMASI, HER GE\xC7EN
-    YIL BUZULLAR ER\u0130MES\u0130NE SEBEP OLUYOR."
+    YIL BUZULLARIN ER\u0130MES\u0130NE SEBEP OLUYOR."
 --- !u!222 &1671684560
 CanvasRenderer:
   m_ObjectHideFlags: 0

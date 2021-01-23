@@ -81,13 +81,13 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = false;
         }
-        timer += Time.deltaTime;
-        if (HorizontalInput!=0&&timer>0.55f)
-        {
-            timer = 0;
-            soundmanager.PlaySound("xd");
+        //timer += Time.deltaTime;
+        //if (HorizontalInput!=0&&timer>0.55f)
+        //{
+            //timer = 0;
+            //soundmanager.PlaySound("xd");
 
-        }
+        //}
 
     }
 

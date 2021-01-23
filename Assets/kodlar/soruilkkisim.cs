@@ -126,13 +126,118 @@ public class soruilkkisim : MonoBehaviour
 
     public void sorugec6()
     {
-        SceneManager.LoadScene("tebrikler1");
+        SceneManager.LoadScene("soru 6");
     }
 
 
     public void sonekran()
     {
         SceneManager.LoadScene("tebrikler2");
+    }
+
+    public void soru0()
+    {
+        SceneManager.LoadScene("soru 0");
+    }
+
+    public void sorusıfırbucuk()
+    {
+        SceneManager.LoadScene("soru 0,5");
+    }
+
+    public void soru6()
+    {
+        SceneManager.LoadScene("soru 6");
+    }
+
+    public void soru7()
+    {
+        SceneManager.LoadScene("soru 7");
+    }
+
+    public void tebrkiler1()
+    {
+        SceneManager.LoadScene("tebrikler1");
+    }
+
+    public void soru0A()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void soru0B()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void soru0C()
+    {
+        SceneManager.LoadScene("acıklama 0");
+    }
+
+    public void soru0D()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void SorusıfırbucukA()
+    {
+        SceneManager.LoadScene("acıklama 0,5");
+    }
+
+    public void SorusıfırbucukB()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void SorusıfırbucukC()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void SorusıfırbucukD()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void soru6A()
+    {
+        SceneManager.LoadScene("acıklama 6");
+    }
+
+    public void soru6B()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void soru6C()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void soru6D()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void soru7A()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void soru7B()
+    {
+        SceneManager.LoadScene("yanlisekrani");
+    }
+
+    public void soru7C()
+    {
+        SceneManager.LoadScene("acıklama 7");
+    }
+
+    public void soru7D()
+    {
+        SceneManager.LoadScene("yanlisekrani");
     }
 
 

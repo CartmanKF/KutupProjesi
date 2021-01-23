@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    float timer = 0;
+    //float timer = 0;
     Rigidbody2D rigidbody2d;
 
     [Header("Movement Settings")]

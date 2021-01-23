@@ -18,6 +18,24 @@ EditorBuildSettings:
     path: "Assets/Scenes/soru ilk k\u0131s\u0131m.unity"
     guid: 142f4f1d71d4d05418cf6d3f3484a0ee
   - enabled: 1
+    path: Assets/Scenes/soru 0.unity
+    guid: df891ed6f848291458a34adb60e424b6
+  - enabled: 1
+    path: "Assets/Scenes/ac\u0131klama 0.unity"
+    guid: 3acb888e4e4d4234a9b39b39e0947709
+  - enabled: 1
+    path: Assets/Scenes/soru 0,5.unity
+    guid: e0baf32034d59d84b82dc5ed1fe971a1
+  - enabled: 1
+    path: "Assets/Scenes/ac\u0131klama 0,5.unity"
+    guid: 302343d21bfeef0499be9f6f907c6652
+  - enabled: 1
+    path: Assets/Scenes/soru 6.unity
+    guid: 26d298af7a4d56e4d82c9943b5c53722
+  - enabled: 1
+    path: "Assets/Scenes/ac\u0131klama 6.unity"
+    guid: b948fc9918b2173459069d626c9df750
+  - enabled: 1
     path: Assets/Scenes/soru 1.unity
     guid: 0f48f7753fd53ef41ad89d25e42ba554
   - enabled: 1
@@ -47,18 +65,12 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/ac\u0131klama 5.unity"
     guid: 8c2e41d51bc63864ca38feb07a0effd8
-  - enabled: 0
-    path: Assets/Scenes/soru 6.unity
-    guid: bab47f77b02842d47b6feceb835747b0
-  - enabled: 0
-    path: "Assets/Scenes/ac\u0131klama 6.unity"
-    guid: 67b665b25e9a6164ba41b7082c2063de
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/soru 7.unity
-    guid: 3eb9f6f555950ea4d80b4dc62dc87d14
-  - enabled: 0
+    guid: ae16686114f1bc445b9a9992983e3a5d
+  - enabled: 1
     path: "Assets/Scenes/ac\u0131klama 7.unity"
-    guid: 68a5b5a3749cd0249bb81d715c5fa9f8
+    guid: e0cc2c821bbf5a54ab33b7bb04164473
   - enabled: 1
     path: Assets/Scenes/yanlisekrani.unity
     guid: 58f0e8f8a0ae3c040bbfd1b9c1111577

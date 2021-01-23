@@ -47,9 +47,6 @@ public class soundmanager : MonoBehaviour
                 break;
         }
     }
-    public static void stop()
-    {
-        ses.Stop();
-    }
+    
 }
     

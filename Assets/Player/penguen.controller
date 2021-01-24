@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-5056485120069958051
+--- !u!1102 &-4467797057403089193
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "z\u0131plama"
+  m_Name: walking
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -20,7 +20,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 2fd38d01d3bc6864a9ba26bca8bf3ff7, type: 2}
+  m_Motion: {fileID: 7400000, guid: 10fb7e20eac53a7469432a821ed905c4, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -34,7 +34,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: "penguen y\xFCr\xFCme"
-  m_Speed: 0.85
+  m_Speed: 0.75
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6967194040456690636}
@@ -47,7 +47,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 79eb32ef1dd1de74ca29b4f401581c26, type: 2}
+  m_Motion: {fileID: 7400000, guid: ffa9af16dfef9dc4e88a9339fb278fbb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -59,7 +59,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PenguenisteMk
+  m_Name: penguen
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: velocity
@@ -121,12 +121,6 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 4566086208196333364}
     m_Position: {x: 70, y: 160, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -5056485120069958051}
-    m_Position: {x: 90, y: 260, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 4521473279555387932}
-    m_Position: {x: 160, y: 310, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -137,32 +131,6 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 4566086208196333364}
---- !u!1102 &4521473279555387932
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: "z\u0131plamad\xFC\u015F\xFC\u015F"
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 978c08d0818c7074c8cabefe0a4ad03c, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1102 &4566086208196333364
 AnimatorState:
   serializedVersion: 5

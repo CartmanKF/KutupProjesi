@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     //float timer = 0;
     Rigidbody2D rigidbody2d;
-
+    public ParticleSystem dust;
     [Header("Movement Settings")]
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] float jumpPower = 5f;
@@ -61,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
             rigidbody2d.velocity = new Vector2(moveby, rigidbody2d.velocity.y);
             anim.SetFloat("velocity", rigidbody2d.velocity.magnitude);
             
+            
             // tsransform.position += Move * Time.deltaTime ;
         }
 
@@ -103,7 +104,10 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
             jumpNumber = 0;
             isJumping = true;
+            
         }
+
+        
 
 
 
@@ -112,16 +116,25 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow) && isJumping)
         {
+            CreateDust();
             soundmanager.PlaySound("jump");
             rigidbody2d.AddForce(new Vector2(0f, jumpPower), ForceMode2D.Impulse);
 
             isGrounded = false;
             jumpNumber++;
+
+
         }
+
+
+       
     }
 
 
-
+    void CreateDust()
+    {
+        dust.Play();
+    }
 
 
 

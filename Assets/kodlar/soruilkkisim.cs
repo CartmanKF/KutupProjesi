@@ -17,7 +17,7 @@ public class soruilkkisim : MonoBehaviour
 
     public void tekrardene()
     {
-        SceneManager.LoadScene("soru 1");
+        SceneManager.LoadScene("soru 0");
     }
 
     public void Soru1A()

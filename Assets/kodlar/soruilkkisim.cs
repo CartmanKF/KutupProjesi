@@ -240,6 +240,18 @@ public class soruilkkisim : MonoBehaviour
         SceneManager.LoadScene("yanlisekrani");
     }
 
+    public void geç()
+    {
+        SceneManager.LoadScene("oyun");
+    }
+
+    public void karikatür()
+    {
+        SceneManager.LoadScene("karikatürilk");
+    }
+
+
+
 
 
 

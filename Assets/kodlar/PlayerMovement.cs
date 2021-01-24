@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Transform spawnpoint;
     //float timer = 0;
     Rigidbody2D rigidbody2d;
     public ParticleSystem dust;
@@ -29,8 +30,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.tag == "KILLZONE")
         {
             soundmanager.PlaySound("deathsound");
-            int CS = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(CS);
+            this.transform.position = spawnpoint.position;
         }
         if (other.gameObject.tag == "yenisahne")
         {

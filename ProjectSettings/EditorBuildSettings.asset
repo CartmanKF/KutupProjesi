@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: "Assets/Scenes/karikat\xFCrilk.unity"
+    guid: 9c387dfc00dbc7844b4f1fd0d59e3fd0
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 2cdf54e8fcfe7594ab9b0cae30362f67
   - enabled: 1

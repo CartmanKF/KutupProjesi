@@ -250,6 +250,11 @@ public class soruilkkisim : MonoBehaviour
         SceneManager.LoadScene("karikatürilk");
     }
 
+    public void kutupelcisi()
+    {
+        SceneManager.LoadScene("kutupelcisi");
+    }
+
 
 
 

@@ -255,6 +255,11 @@ public class soruilkkisim : MonoBehaviour
         SceneManager.LoadScene("kutupelcisi");
     }
 
+    public void katıl()
+    {
+        SceneManager.LoadScene("kazandın");
+    }
+
 
 
 

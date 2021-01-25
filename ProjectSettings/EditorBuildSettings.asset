@@ -89,4 +89,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/kutupelcisi.unity
     guid: 050e82104c8c6684d80b9faaa3104efb
+  - enabled: 1
+    path: "Assets/Scenes/kazand\u0131n.unity"
+    guid: 73fc33cb8eec7dc45a5d9e18a0a48fe9
   m_configObjects: {}
